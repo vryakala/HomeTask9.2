@@ -1,0 +1,8 @@
+1) 
+Assert.assertEquals(USERNAME, loggedInUserName);
+should be written as 
+Assert.assertEquals("Equal", USERNAME, loggedInUserName);
+
+2) URLs are to be passed through config file
+
+3) Object locators should be taken from a repository (Excel or JSON)
